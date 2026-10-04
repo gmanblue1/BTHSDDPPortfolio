@@ -9,3 +9,4 @@ endOfYearButton.onclick = function() {
 }
 const jsChecker = document.createElement("p");
 jsChecker.innerHTML = "If you are seeing this, it means that <a href='https://en.wikipedia.org/wiki/JavaScript'>JavaScript</a> is working!";
+document.body.appendChild(jsChecker);
