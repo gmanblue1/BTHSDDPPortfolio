@@ -3,12 +3,16 @@ body{
     scrollbar-base-color: rgb(185, 17, 17);
     background-color: rgb(55, 166, 219);
 }
-h1, h2, p{
+h1, h2, p, ol{
     color: rgb(255, 255, 255);
 }
 img{
     width: 300px;
     height: 200px;
+}
+#logo{
+    width: 300px;
+    height: 300px;
 }
 .centered{
     text-align: center;
