@@ -3,7 +3,7 @@ body{
     scrollbar-base-color: rgb(185, 17, 17);
     background-color: rgb(55, 166, 219);
 }
-h1, h2, p, ol{
+h1, h2, p, ol, ul{
     color: rgb(255, 255, 255);
 }
 img{
