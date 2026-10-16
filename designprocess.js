@@ -11,6 +11,8 @@ extendButton.onclick = function(){
     text += "<img src=\"fut2.jpg\">"
     text += "<img src=\"fut3.jpg\">"
     text += "<p>After a few revisions to accomadate to different constraints, we got the final product.</p>"
+    text += "<img src=\"fut4.jpg\">"
+    text += "<img src=\"fut5.jpg\">"
     lebigtext.innerHTML = text;
     lebigtext.onclick = function(){
         alert("Why did you click on this 😭");
