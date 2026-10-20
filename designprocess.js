@@ -1,5 +1,13 @@
 const extendButton = document.getElementById("extendFutbol");
 const lebigtext = document.getElementById("longFutbol");
+const now = new Date();
+const date1 = document.getElementById("date1")
+
+function subtractDates(oldDate, oldMonth){
+    return ", " + String(now.getMonth() - oldMonth) + " Months and " + String(now.getDate() - oldDate) + " Days Ago"
+}
+
+date1.innerHTML += subtractDates(20, 9)
 
 extendButton.onclick = function(){
     extendButton.remove();
