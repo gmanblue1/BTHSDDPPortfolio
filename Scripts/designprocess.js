@@ -20,6 +20,9 @@ extendFutbol.onclick = function(){
 extendFlip.onclick = function(){
     extendFlip.remove();
     let text = "";
-    text += "<p>We are currently building this part. Sorry for the inconvinience.</p>";
+    text += "<p>By using basic bottles, it introduced an unreliable result that based off luck. Do 5 in a row and then you'll miss the next 5.</p>";
+    text += "<img src=\"../Images/flip5.jpg\">"
+    text += "<p>We designed the Raft, which provided a great and lightweight safety net to ensure that flipping was at least more reliable.</p>";
+    text += "<img src=\"../Images/flip2.jpg\">"
     joshaaronhart.innerHTML = text;
 }
