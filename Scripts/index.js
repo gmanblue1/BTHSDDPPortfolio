@@ -6,5 +6,5 @@ let currentMonth = months[now.getMonth()];
 
 endOfYearButton.onclick = function(){
     endOfYearButton.remove();
-    endOfYearStatement.innerHTML = "You can't see this yet! It's still " + currentMonth + "! Come back at the end of the year to see my statement. For now you can <a href='./directory.html'>see the current Directory</a>.";
+    endOfYearStatement.innerHTML = "You can't see this yet! It's still " + currentMonth + "! Come back at the end of the year to see my statement. For now you can <a href='../Pages/directory.html'>see the current Directory</a>.";
 }
